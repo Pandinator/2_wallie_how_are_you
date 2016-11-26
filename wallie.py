@@ -11,10 +11,10 @@ def get_wallie_action():
         'проставляет ссылки в энциклопедии',
         'вычитывает статью',
         'ищет стажировки для студентов',
-    ]
+        ]
     return 'Валли ' + random.choice(possible_actions)
 
 
 if __name__ == '__main__':
     action = get_wallie_action()
-    print action
+    print(action)
